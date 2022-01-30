@@ -166,3 +166,39 @@ body {
     bottom: 24px;
   }
 }
+
+/***********SIGN UP SCREEN********/
+.title-signup {
+  font-size: var(--lg);
+  margin-bottom: 35px;
+  text-align: start;
+}
+
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+
+#formLogin div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 640px){
+  #formLogin {
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    height: 100%;
+  }
+}
+
+/********EDIT USER ACCOUNT SCREEN**********/
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 8px 0 32px 0;
+}
